@@ -1,10 +1,10 @@
 class Project
-  attr_accessor :title, :backer_array
+  attr_accessor :title, :backers
   def initialize(title)
     @title = title
-    @backer_array = []
+    @backers = []
   end
   def add_backer(backer)
-    @backer_array << backer
+    @backers << backer
   end
 end
